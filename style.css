@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;;
+}
+
+.box{
+    height:560px;
+    width: 500px;
+    border: 8px solid black;
+   
+}
+.top{
+    height:100px;
+    width:100%;
+    border: 2px solid rgb(50, 255, 245);
+    border-radius: 50px;
+}
+.bottom{
+    margin:20px;
+    
+}
+.but{
+    color: white;
+    background-color: rgb(114, 59, 119);;
+    border: 2px solid green;
+    border-radius:20px;
+    font-size:16px;
+    padding:20px;
+    margin:5px;
+    cursor: pointer;
+    gap:50px;
+}
+.but1{
+    color: white;
+    background-color: #a83293;
+    border: 2px solid green;
+    border-radius:20px;
+    font-size:16px;
+    padding:20px;
+    margin:5px;
+    cursor: pointer;
+}
+#b{
+    border:2px solid green;
+    background-color:rgb(114, 59, 119);
+    color:white;
+    border-radius:30px;
+    font-size:20px;
+    padding:20px;
+    margin:8px;
+    cursor:pointer;
+}
