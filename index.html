@@ -1,47 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me! - A calculator made my me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utilis.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div class = "box">
-        <div class="top"></div>
-        <div class="bottom">
-        <div class="div1">
-            <button class = "but">Ac</button>
-            <button class = "but">+/-</button>
-            <button class = "but">per</button>
-            <button class = "but1">%</button>
-            
-        </div>
-        <div class="div2">
-            <button class = "but">7</button>
-            <button class = "but">8</button>
-            <button class = "but">9</button>
-            <button class = "but1">*</button>
-        </div>
-        <div class="div3">
-            <button class = "but">4</button>
-            <button class = "but">5</button>
-            <button class = "but">6</button>
-            <button class = "but1">-</button>
-        </div>
-        <div class="div4">
-            <button class = "but">1</button>
-            <button class = "but">2</button>
-            <button class = "but">3</button>
-            <button class = "but1">+</button>
-        </div>
-        <div class="div5">
-            <button id = "b">0</button>
-            <button class = "but">.</button>
-            <button class = "but1">=</button>
-        </div>
+  <h1 class="text-center">Welcome to Calculate me!</h1>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    <div class="row">
+      <input class="input" type="text"/>
     </div>
+    <div class="row">
+      <button class="button cancel">C</button>
+      <button class="button">%</button>
+      <button class="button">M+</button>
+      <button class="button">M-</button>
     </div>
-    <script src="script.js"></script>
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button box">*</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button box">/</button>
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button box">+</button>
+    </div>
+    <div class="row">
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button box">=</button>
+      <button class="button box">-</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
